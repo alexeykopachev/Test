@@ -10,7 +10,7 @@ import { useScrollToBottom } from "@/app/hooks/useScroll";
 import { cn } from "@/app/lib/utils";
 import { useBotStore } from "@/app/store/bot";
 import { copyToClipboard } from "@/app/utils/clipboard";
-import { Clipboard, Eraser, PauseCircle, Trash } from "lucide-react";
+import { Clipboard, Eraser, PauseCircle, Trash, Smile } from "lucide-react";
 import dynamic from "next/dynamic";
 import { useEffect, useMemo, useRef, useState } from "react";
 import { ChatControllerPool } from "../../client/controller";
@@ -201,6 +201,7 @@ export function Chat() {
   return (
     <div className="flex flex-col relative h-full" key={bot.id}>
       <ChatHeader />
+<Smile className="w-6 h-6 text-primary-foreground mx-auto my-4" />
       <ScrollArea
         className="flex-1 overflow-auto overflow-x-hidden relative overscroll-none pb-10 p-5"
         ref={scrollRef}
