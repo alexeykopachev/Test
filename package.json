@@ -35,7 +35,7 @@
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.0.0",
     "dotenv": "^16.3.1",
-    "emoji-picker-react": "^4.5.15",
+    "emoji-picker-react": "^4.9.2",
     "encoding": "^0.1.13",
     "llamaindex": "0.0.35",
     "lucide-react": "^0.277.0",
